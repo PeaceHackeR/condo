@@ -1,3 +1,40 @@
-h1 {
-    font-family: 'Courier New', Courier, monospace;
+.tt01 {  
+    font-family: 'med';
+    font-size: 3.5em;
+    text-align: center;
+    color:#333;
+    
+}
+
+.link01 {
+    font-family: 'med';
+    font-size: 1.5em;
+
+  
+}
+
+.nav-link {
+    list-style: none;
+}
+.nav-link li {
+    display: inline-block;
+    border-right: 2PX solid ;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+    
+}
+.nav-link .last-child{
+    border-right: none;
+}
+.nav-link a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer {
+    display: block;
+    color: #fff;
+    height: 80px;
+    background: #333;
 }
