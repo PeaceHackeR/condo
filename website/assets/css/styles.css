@@ -5,14 +5,17 @@
     color:#333;
     
 }
-.img-bg{
-    text-align: center;
+    
+body{
+    background-image: url('../img/bg-01.jpg');
+    background-repeat: no-repeat;
+    background-color: #fff;
 }
+
 .link01 {
     font-family: 'med';
     font-size: 1.5em;
 
-  
 }
 
 .nav-link {
@@ -41,6 +44,10 @@
 }
 .img-highlight img {
     max-width: 100%;
+}
+
+.mm01{
+    font-family: 'med';
 }
 
 /*--- Footer ---*/
