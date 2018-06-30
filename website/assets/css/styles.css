@@ -1,32 +1,33 @@
 .tt01 {  
     font-family: 'med';
-    font-size: 2em;
+    font-size: 40px;
     text-align: center;
+    font-weight: normal;
     color:#333;
     
 }
     
 body{
-    background-image: url('../img/bg-01.jpg');
-    background-repeat: no-repeat;
-    background-color: #fff;
+    background: #fff url('../img/bg-01.jpg') no-repeat right;
+    margin: 0;
 }
 
 .link01 {
     font-family: 'med';
-    font-size: 1.5em;
-
+    font-size: 22px;
+    
 }
 
 .nav-link {
     list-style: none;
+    -webkit-padding-start: 30px;
 }
 .nav-link li {
     display: inline-block;
     border-right: 2PX solid ;
     padding-left: 10px;
     padding-right: 10px;
-    color: #666;
+    color: #333;
     
 }
 .nav-link .last-child{
@@ -34,10 +35,12 @@ body{
 }
 .nav-link a {
     text-decoration: none;
-    color: #666;
+    color: #333;
 }
 
 /*--- Main ---*/
+
+
 .img-highlight {
     display: block;
     text-align: center;
@@ -46,14 +49,127 @@ body{
     max-width: 100%;
 }
 
-.mm01{
+.con01{
+    padding: 10px 30px;
+}
+
+.incon01{
+    padding: 5px 20px;
+}
+
+p{
+   margin: 5px 0px;
+   color: #666;
+}
+
+.hh02{
     font-family: 'med';
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list01{
+    list-style: none;
+    color: #666;
+}
+
+
+li.icon-lo{
+    background: url(../img/ico-pin.png) no-repeat ;
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+
+
+.icon-mrt{
+    background-image: url(../img/ico-mrt.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.pl-bo{
+    padding: 5px 20px;
+}
+
+.pl-bo p{
+    color: #333;
+}
+
+.txt-h1{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.button {
+    font-size: 18px;
+    font-family: 'regular', Arial, sans-serif;
+    font-weight: normal;
+    background-color: #052D50;
+    border: none;
+    color:#fff;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 /*--- Footer ---*/
 .footer {
-    display: block;
-    color: #fff;
-    height: 80px;
-    background: #333;
+    background: #FFF url(../img/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 20px 0px 30px;
+    position: relative;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo-so {
+    margin-bottom: 20px;
+}
+
+.fo01{
+    text-align: center;
+}
+
+.logo-ana-fo{
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+.fo02{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.logo-ur{
+    display: inline-block;
+}
+
+.social{
+    padding: 10px 10px;
+    display: inline-block;
+    float: left;
+}
+
+.social a{
+    margin: 0 3px;
+    text-decoration: none;
+}
+
+
+.ana-tel{
+    
+    padding: 0 10px;
+    float: right;
+    text-align: center;
 }
