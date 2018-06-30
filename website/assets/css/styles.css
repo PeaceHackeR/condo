@@ -173,8 +173,19 @@ li.icon-lo{
     text-align: center;
 }
 
-.social-x {
-    
+.main{
+    position: relative;
+}
+
+.social-facebook {
+    display: inline-block;
+    position: fixed;
+    top: 38px;
+    right: 14px;
+    padding: 9px 15px;
+    background: #3b5998;
+    color: #fff;
+    border-radius: 20px;
 }
 
 /* ======== MEDIA QUERY ========== */
