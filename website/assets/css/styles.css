@@ -168,8 +168,18 @@ li.icon-lo{
 
 
 .ana-tel{
-    
     padding: 0 10px;
     float: right;
     text-align: center;
+}
+
+.social-x {
+    
+}
+
+/* ======== MEDIA QUERY ========== */
+@media (max-width: 600px){
+    .tt01 {
+        text-decoration: underline;
+    }
 }
